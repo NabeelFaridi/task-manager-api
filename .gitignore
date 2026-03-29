@@ -1,0 +1,21 @@
+# Build output
+bin/
+obj/
+
+# Database file - never commit this
+*.db
+*.db-shm
+*.db-wal
+
+# User secrets and local settings
+appsettings.Development.json
+secrets.json
+
+# IDE files
+.vs/
+.vscode/
+*.user
+
+# OS files
+.DS_Store
+Thumbs.db
